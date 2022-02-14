@@ -14,7 +14,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-38e8a7b3.js",
+    "file": "pages/layout.svelte-38e8a7b3.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -22,7 +22,7 @@
       "_vendor-532c715f.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-5ac89662.css"
+      "assets/pages/layout.svelte-5ac89662.css"
     ],
     "assets": [
       "assets/logo-7252944c.svg",
