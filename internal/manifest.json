@@ -1,0 +1,74 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-10427708.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-532c715f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/about.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-38e8a7b3.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-532c715f.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-20df8bcc.css"
+    ],
+    "assets": [
+      "assets/logo-7252944c.svg",
+      "assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+      "assets/fira-mono-all-400-normal-1e3b098c.woff",
+      "assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+      "assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+      "assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+      "assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+      "assets/fira-mono-latin-400-normal-e43b3538.woff2"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-b2b63d2a.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-532c715f.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-98243a97.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-532c715f.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-f50f9995.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-532c715f.js"
+    ],
+    "css": [
+      "assets/pages/about.svelte-bf4528fa.css"
+    ]
+  },
+  "_vendor-532c715f.js": {
+    "file": "chunks/vendor-532c715f.js",
+    "css": [
+      "assets/vendor-dea109d4.css"
+    ]
+  }
+}

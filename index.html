@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Svelte demo app" />
+		<link rel="icon" href="/nomogram-web/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Home</title>
+	<link rel="stylesheet" href="/nomogram-web/internal/assets/vendor-dea109d4.css">
+	<link rel="stylesheet" href="/nomogram-web/internal/assets/pages/__layout.svelte-20df8bcc.css">
+	<link rel="modulepreload" href="/nomogram-web/internal/start-10427708.js">
+	<link rel="modulepreload" href="/nomogram-web/internal/chunks/vendor-532c715f.js">
+	<link rel="modulepreload" href="/nomogram-web/internal/pages/__layout.svelte-38e8a7b3.js">
+	<link rel="modulepreload" href="/nomogram-web/internal/pages/index.svelte-98243a97.js">
+	</head>
+	<body>
+		<div>
+
+
+<header class="svelte-t2wq17"><div class="corner svelte-t2wq17"><a href="/" class="svelte-t2wq17"><img src="/nomogram-web/internal/assets/logo-7252944c.svg" alt="logo" class="svelte-t2wq17"></a></div>
+
+	<nav class="svelte-t2wq17"><svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-t2wq17"><path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" class="svelte-t2wq17"></path></svg>
+		<ul class="svelte-t2wq17"><li class="svelte-t2wq17"><a sveltekit:prefetch href="/" class="svelte-t2wq17">Home</a></li>
+			<li class="svelte-t2wq17"><a sveltekit:prefetch href="/about" class="svelte-t2wq17">About</a></li></ul>
+		<svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-t2wq17"><path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" class="svelte-t2wq17"></path></svg></nav>
+
+	<div class="corner svelte-t2wq17"></div>
+</header>
+
+<main class="svelte-1izrdc8">
+
+
+
+<h1>Clinical Outcome Predictors for Breast Cancer</h1><br>
+<h3>Serum albumin level : 2 g/dL</h3>
+<input type="number" value="0" class="svelte-1q9yxz9">
+
+<div class="track svelte-1q9yxz9"><div class="progress svelte-1q9yxz9" style="\n    left: 0%;\n    right: 100%;\n  "></div>
+  <div class="thumb svelte-8w8x88" style="left: 0%;"><div class="thumb-content svelte-8w8x88">
+      
+        <div class="thumb svelte-1q9yxz9"></div>
+      
+    </div>
+</div>
+  
+</div>
+
+<h3>Distal Pancreatectomy</h3>
+<label><input type="radio" name="distal" value="false">
+	no
+</label>
+<label><input type="radio" name="distal" value="true" checked>
+	yes
+</label>
+
+<h3>Residual tumor </h3>
+<label><input type="radio" name="residual" value="false">
+	Microscopic
+</label>
+<label><input type="radio" name="residual" value="true" checked>
+	≤1cm or &gt;1cm
+</label>
+
+<h3>Diabetes</h3>
+<label><input type="radio" name="No" value="false">
+	no
+</label>
+<label><input type="radio" name="Yes" value="true" checked>
+	yes
+</label>
+
+<canvas id="myChart"></canvas>
+
+result: 71.19%</main>
+
+<footer class="svelte-1izrdc8"><p>Clinical Outcome Predictors for Breast Cancer</p>
+</footer>
+
+
+		<script type="module" data-hydrate="19mh4m9">
+		import { start } from "/nomogram-web/internal/start-10427708.js";
+		start({
+			target: document.querySelector('[data-hydrate="19mh4m9"]').parentNode,
+			paths: {"base":"/nomogram-web","assets":"/nomogram-web"},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/nomogram-web/internal/pages/__layout.svelte-38e8a7b3.js"),
+						import("/nomogram-web/internal/pages/index.svelte-98243a97.js")
+				],
+				url: new URL("http://sveltekit-prerender/nomogram-web"),
+				params: {}
+			}
+		});
+	</script></div>
+	</body>
+</html>
