@@ -8,10 +8,10 @@
 		<meta http-equiv="content-security-policy" content=""><title>Home</title>
 	<link rel="stylesheet" href="/internal/assets/vendor-dc74a490.css">
 	<link rel="stylesheet" href="/internal/assets/pages/__layout.svelte-ecf9d70c.css">
-	<link rel="modulepreload" href="/internal/start-7eca4459.js">
+	<link rel="modulepreload" href="/internal/start-b1a237ca.js">
 	<link rel="modulepreload" href="/internal/chunks/vendor-2de95d2f.js">
 	<link rel="modulepreload" href="/internal/pages/__layout.svelte-b65ad861.js">
-	<link rel="modulepreload" href="/internal/pages/index.svelte-98c9b02e.js">
+	<link rel="modulepreload" href="/internal/pages/index.svelte-1d803068.js">
 	</head>
 	<body>
 		<div>
@@ -36,22 +36,6 @@
 
 <p style="font-size: 28px">Estimated risk: <b>53.87%</b></p>
 
-<h3>Accompanying distal pancreatectomy</h3>
-<label><input type="radio" name="distal" value="false">
-	No
-</label>
-<label><input type="radio" name="distal" value="true" checked>
-	Yes
-</label>
-
-<h3>Residual tumor</h3>
-<label><input type="radio" name="residual" value="false">
-	No
-</label>
-<label><input type="radio" name="residual" value="true" checked>
-	Yes
-</label>
-
 <h3>Current Diabetes</h3>
 <label><input type="radio" name="diabetes" value="false">
 	No
@@ -60,13 +44,31 @@
 	Yes
 </label>
 
+<h3>Accompanying distal pancreatectomy</h3>
+<label><input type="radio" name="distal" value="false">
+	No
+</label>
+<label><input type="radio" name="distal" value="true" checked>
+	Yes
+</label>
+
 <h3>Anastomotic level from the anal verge</h3>
 <label><input type="radio" name="anastomotic" value="true">
-	 &lt; 10cm (g/dL)
+	 &lt; 10cm
 </label>
 <label><input type="radio" name="anastomotic" value="false" checked>
-	 ≥ 10cm (g/dL)
+	 ≥ 10cm
 </label>
+
+<h3>Residual tumor</h3>
+<label><input type="radio" name="residual" value="false">
+	No residual tunor
+</label>
+<label><input type="radio" name="residual" value="true" checked>
+	Macroscopic 
+</label>
+
+
 
 
 
@@ -83,10 +85,10 @@
 </footer>
 
 
-		<script type="module" data-hydrate="i4g7ws">
-		import { start } from "/internal/start-7eca4459.js";
+		<script type="module" data-hydrate="1095sd3">
+		import { start } from "/internal/start-b1a237ca.js";
 		start({
-			target: document.querySelector('[data-hydrate="i4g7ws"]').parentNode,
+			target: document.querySelector('[data-hydrate="1095sd3"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -97,7 +99,7 @@
 				error: null,
 				nodes: [
 					import("/internal/pages/__layout.svelte-b65ad861.js"),
-						import("/internal/pages/index.svelte-98c9b02e.js")
+						import("/internal/pages/index.svelte-1d803068.js")
 				],
 				url: new URL("http://sveltekit-prerender/"),
 				params: {}
